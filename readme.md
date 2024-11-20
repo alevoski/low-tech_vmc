@@ -9,7 +9,7 @@ Ce repo présente essentiellement la partie électronique du projet, à base d'A
 Pour avoir tout le détail, notamment la fabrication des caissons, voir cette page :  
 https://wiki.lowtechlab.org/wiki/VMC_double_flux
 
-Ce projet à commencé en Janvier 2023.  
+Ce projet a commencé en Janvier 2023.  
 C++ est utilisé pour l'ensemble du code source.  
 C'est un projet finalisé sujet à des améliorations.
 
@@ -20,7 +20,7 @@ C'est un projet finalisé sujet à des améliorations.
 Attention à vous lors de la manipulation de la carte et des composants, notamment des ventilateurs et du relais !   
 Cette installation est branchée sur le courant alternatif (220V) donc danger de mort si vous ne savez pas ce que vous faites !
 
-Vous pouvez faire les tests sans brancher les ventilateurs, les led du relais s'allumeront ou s'étendront en fonction du mode de fonctionnement (on/off) ce qui est suffisant pour un simple test.
+Vous pouvez faire les tests sans brancher les ventilateurs. Les led du relais s'allumeront ou s'étendront en fonction du mode de fonctionnement (on/off) ce qui est suffisant pour un simple test.
 
 ## Compatibilité
 Le code source a été testé avec succès avec les éléments suivants :
@@ -53,7 +53,7 @@ Branchez votre carte et le module BT comme ceci :
 ![](Schemas/sch%C3%A9ma_conf_HC-05.png)
 (ou voir le fichier Fritzing /Schema/config_BT2.fzz)
 
-Puis ouvrez le ficher /CS/config_BT2/config_BT2.ino dans Arduino IDE
+Puis ouvrez le ficher /CS/config_BT2/config_BT2.ino dans Arduino IDE.  
 Branchez votre carte en USB sur votre ordinateur et compiler (Sketch -> Verify/Compile)
 
 Détail complet ici :  
@@ -66,7 +66,7 @@ Branchez votre carte avec les différents éléments comme ceci :
 ![](Schemas/sch%C3%A9ma_vmc_arduino_final2.png)
 (ou voir le fichier Fritzing /Schema/vmc_prefinal.fzz)
 
-Puis ouvrez le fichier /CS/CS/vmc_final_v3/CS/vmc_final_v3.ino dans Arduino IDE
+Puis ouvrez le fichier /CS/CS/vmc_final_v3/CS/vmc_final_v3.ino dans Arduino IDE.  
 Branchez votre carte en USB sur votre ordinateur et compiler (Sketch -> Verify/Compile)
 
 Détail complet ici :  
@@ -74,7 +74,7 @@ Détail complet ici :
 
 **Test**  
 
-La carte Arduino doit être alimenter soit via USB soit via un adaptateur secteur.
+La carte Arduino doit être alimenter soit via USB soit via un adaptateur secteur.  
 Vous n'êtes pas obligé de brancher les ventilateurs ici pour faire le test.
 
 Etapes :
