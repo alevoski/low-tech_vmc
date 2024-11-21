@@ -201,6 +201,9 @@ void loop() {
       Serial.println(F("Arrêt de la VMC."));
       mySerial.println(F("Arrêt de la VMC."));
 
+      digitalWrite(OUT_FAN_PIN, LOW);
+      digitalWrite(IN_FAN_PIN, LOW);
+
       vitesse = 0;
       mode = -1;
     }
